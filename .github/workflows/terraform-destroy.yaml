@@ -3,8 +3,7 @@ name: Terraform Deployment
 on: workflow_dispatch
 
 env:            
-  AWS_REGION: ap-southeast-1  
-
+  AWS_REGION: us-east-1
 jobs:
   CICD:
     runs-on: ubuntu-latest
